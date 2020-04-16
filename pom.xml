@@ -89,7 +89,7 @@ under the License.
     <module>maven-resolver-provider</module>
     <module>maven-repository-metadata</module>
     <module>maven-slf4j-provider</module>
-    <module>maven-embedder</module>
+    <!--<module>maven-embedder</module>-->
     <module>maven-compat</module>
     <module>apache-maven</module>
   </modules>
@@ -184,11 +184,13 @@ under the License.
         <artifactId>maven-plugin-api</artifactId>
         <version>${project.version}</version>
       </dependency>
-      <dependency>
+     <!--
+        <dependency>
         <groupId>org.apache.maven</groupId>
         <artifactId>maven-embedder</artifactId>
         <version>${project.version}</version>
       </dependency>
+    -->
       <dependency>
         <groupId>org.apache.maven</groupId>
         <artifactId>maven-core</artifactId>
